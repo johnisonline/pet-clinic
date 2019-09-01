@@ -7,9 +7,6 @@ import java.util.Set;
 /**
  * Created by jmarias on 8/31/19.
  */
-public interface VetService {
-    Vet findbyId(Long Id);
+public interface VetService extends CrudService<Vet, Long> {
     Vet findByLastName(String lastName);
-    Vet save(Vet owner);
-    Set<Vet> findAll();
 }
