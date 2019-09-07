@@ -1,4 +1,4 @@
-package com.john.petclinicdata.model;
+package com.john.petclinic.model;
 
 
 

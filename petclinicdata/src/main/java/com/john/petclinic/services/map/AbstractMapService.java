@@ -1,7 +1,6 @@
-package com.john.petclinicdata.services.map;
+package com.john.petclinic.services.map;
 
-import com.john.petclinicdata.model.BaseEntity;
-import com.john.petclinicdata.services.CrudService;
+import com.john.petclinic.services.CrudService;
 
 import java.util.HashMap;
 import java.util.HashSet;

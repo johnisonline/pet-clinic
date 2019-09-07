@@ -1,10 +1,8 @@
-package com.john.petclinicdata.services;
+package com.john.petclinic.services;
 
 import java.util.Set;
 
-/**
- * Created by jmarias on 8/31/19.
- */
+
 public interface CrudService<T, ID> {
 
     Set<T> findAll();
