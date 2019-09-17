@@ -2,8 +2,3 @@ john:
   jms:
     username: johnss
     password: johnnn
-
----
-john:
-  jms:
-    username: JAHNSS
