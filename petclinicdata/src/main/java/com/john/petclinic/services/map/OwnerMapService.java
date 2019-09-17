@@ -7,11 +7,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService{
 
-    @Override
+    /*@Override
     public Owner save(Owner object) {
-        return super.saveUsingId(object.getId(), object);
+        return supersaveUsingId(object.getId(), object);
     }
-
+*/
     @Override
     public Owner findByLastName(String lastName) {
         return null;
